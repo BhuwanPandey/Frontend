@@ -1,0 +1,164 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+.parent{
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6eff6;
+}
+
+.maindiv{
+    width:50vw;
+    height:70vh;
+    box-shadow:0 4px 8px grey;
+    background-color: white;
+}
+
+.first{
+    height:30vh;
+    padding:20px;
+    width:100%;
+}
+.first h2{
+    color:#41aea8;
+    margin-bottom: 15px;
+    word-spacing: 5px;
+    font-weight: 600;
+}
+li{
+    list-style: none;
+}
+
+.first li{
+    color:rgb(209, 209, 209);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.first li:first-child{
+    color:#daea91;
+    font-weight: 800;
+    font-size:16px;
+    margin-bottom: 5px;
+}
+
+.second{
+    height:40vh;
+    width:100%;
+}
+
+.second .sub-left,.second .sub-right{
+    width: 50%;
+    height:inherit;
+    padding: 20px;
+}
+
+.second .sub-left{
+    float: left;
+    background-color: #2bb3b1;
+}
+.sub-left h2 ,.sub-right h2{
+    color:white;
+    font-size: 17px;
+    word-spacing: 3px;
+}
+.sub-left li{
+    color:white;
+    margin:10px 0;
+}
+.sub-left ul li:first-child{
+    color:whitesmoke;
+}
+.sub-left ul li span{
+    font-size:40px;
+}
+
+.sub-left button{
+    margin-top:10px;
+    width:80%;
+    color:white;
+    font-size: 15px;
+    background-color: #daea91;
+    border: none;
+    outline: none;
+    padding:20px 40px;
+    border-radius:5%;
+}
+.second .sub-right{
+    background-color:#4abebd;
+    float: right;
+}
+.sub-right ul{
+    margin-top:10px;
+}
+.sub-right ul li{
+    color:white;
+    opacity: 50%;
+    margin:3px 0px;
+}
+
+@media screen and (max-width: 950px) {
+    .first{
+        padding: 10px;
+    }
+    .first h2,.sub-left h2 ,.sub-right h2{
+      font-size:13px;
+    }
+    .first ul li:first-child{
+        font-size:12px;
+    }
+    .first ul li{
+        font-size: 13px;
+    }
+    .second .sub-left,.second .sub-right{
+        float:none;
+        width:100%;
+        height:25vh;
+    }
+    .sub-left ul li span{
+        font-size: 20px;
+    }
+    .sub-left li{
+        font-size: 14px;
+    }
+    .sub-left button{
+    margin-top:7px;
+    font-size: 10px;
+    padding:10px 20px;
+    }
+    .sub-right ul li{
+        font-size:11px;
+    }
+  }
+
+@media screen and (max-width:540px){
+    .first h2,.sub-left h2 ,.sub-right h2{
+        font-size:11px;
+      }
+    
+    .first ul li:first-child{
+        font-size:11px;
+    }
+    .first ul li{
+        font-size: 9px;
+    }
+
+    .sub-left ul li span{
+        font-size: 14px;
+    }
+
+    .sub-left button{
+    font-size:8px;
+    }
+    .sub-right ul li,.sub-left li{
+        font-size:9px;
+    }
+}
