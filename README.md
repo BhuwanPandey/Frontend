@@ -15,9 +15,8 @@
 
 <br/>
 
-<video width="320" height="240" autoplay>
-  <source src="https://user-images.githubusercontent.com/46397975/118389414-97c3ee00-b649-11eb-850e-25d9c01e1735.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-</video>
+
+https://user-images.githubusercontent.com/46397975/118389786-461c6300-b64b-11eb-8291-0eae40604632.mp4
+
 
 
