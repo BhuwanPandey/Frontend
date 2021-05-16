@@ -1,0 +1,64 @@
+*{
+  margin:0;padding:0;
+  box-sizing: border-box;
+}
+
+.parentDiv{
+  height:100vh;
+  width:100%;
+  position: relative;
+}
+
+.childDiv{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  box-shadow:0px 0px 9px;
+  background-color: #999966;
+  padding:10px;
+  border-radius: 10px;
+}
+.childDiv h1{
+  color:white;
+  margin:10px 0px 10px 20px;
+}
+.innerChild{
+  background-color:whitesmoke;
+  padding:0px 20px 20px;
+  border-radius: 10px;
+}
+
+button{
+  font-size:20px;
+  border:none;
+  margin:3px;
+  border-radius: 10px;
+}
+button:hover{
+  background-color:grey;
+  color:white;
+}
+.first,.second,.third,.fourth,.fifth{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.first button,.second button,.third button,.fourth button{
+  width:80px;
+  height: 50px;
+}
+.fifth button{
+  width:120px;
+  height:50px;
+}
+.screen{
+  padding:20px 0px 0px 0px;
+  height: 80px;
+  position: relative;
+}
+.screen span{
+  font-size:30px;
+  position:absolute;
+  right:0px;
+}
