@@ -16,7 +16,8 @@
 <br/>
 
 
-https://user-images.githubusercontent.com/46397975/118389786-461c6300-b64b-11eb-8291-0eae40604632.mp4
+![calculator](https://user-images.githubusercontent.com/46397975/118389936-22a5e800-b64c-11eb-8446-7508b84640d4.gif)
+
 
 
 
