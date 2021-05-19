@@ -1,0 +1,130 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.mainDiv{
+    width:100vw;
+    height: 100vh;
+    background-color:#fafafa ;
+}
+.headerChildDiv{
+    position:relative;
+    height:30vh;
+}
+.innerChild{
+    position:absolute;
+    top:30px;
+    left:33%;
+}
+.innerChild p:first-child{
+    font-size:25px;
+    opacity:50%;
+}
+.innerChild h2{
+    margin:5px 0px;
+    line-height:25px;
+}
+.innerChild p:last-child{
+    margin-left: -10px;
+    width: 60%;
+    font-size: 11px;
+    font-weight:600;
+    opacity: 50%;
+    text-align: center;
+}
+.midChildDiv{
+    position:relative;
+    height:60vh;
+    margin:0px 10%;
+}
+
+.midChildCard1,.midChildCard2,.midChildCard3,.midChildCard4{
+    width:27%;
+    height:28vh;
+    position:absolute;
+    padding:2% 3% 3% 3%;
+    box-shadow:0px 0px 3px;
+    border-radius:10px;
+}
+.midChildCard1 h2,.midChildCard2 h2,.midChildCard3 h2,.midChildCard4 h2{
+    font-size:12px;
+    font-weight:900;
+    margin-bottom:5px;
+}
+
+.midChildCard1 p,.midChildCard2 p,.midChildCard3 p,.midChildCard4 p{
+    font-size:12px;
+    font-weight:700;
+    opacity:50%;
+}
+.midChildCard1{
+    top:20%;
+    border-top:8px solid #44b2b3;
+}
+.midChildCard2{
+    left:30%;
+    border-top:8px solid #c26d70;
+}
+.midChildCard3{
+    top:20%;
+    right:12%;
+    border-top:8px solid #397dba;
+}
+.midChildCard4{
+    top:50%;
+    left:30%;
+    border-top:8px solid #e7a640;
+}
+
+.midChildCard1 span i,.midChildCard2 span i,.midChildCard3 span i,.midChildCard4 span i{
+    font-size:4vw;
+    float:right;
+    margin-top:2vw;
+}
+.midChildCard1 span i{
+    color:green;
+}
+.midChildCard2 span i{
+    color:red;
+}
+.midChildCard3 span i{
+    color:blue;
+}
+.midChildCard4 span i{
+    color:yellow;
+}
+
+@media screen and (max-width: 550px) {
+
+    .innerChild p:first-child{
+        font-size:15px;
+    }
+    .innerChild h2{
+        font-size: 18px;
+    }
+    
+    .midChildCard1{
+        top:2%;
+        left:25%;
+        width:50%;
+        height:25vh;
+    }
+    .midChildCard2{
+        left:25%;
+        top:50%;
+        width:50%;
+        height:25vh;
+    }
+    .midChildCard3{
+        left:25%;
+        top:100%;
+        width:50%;
+    }
+    .midChildCard4{
+        top:150%;
+        left:25%;
+        width:50%;
+    }
+  }
