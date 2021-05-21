@@ -29,6 +29,18 @@
 
 
 <br/>
+**3.Analog and digital Clock**
+
+<a href="https://user-images.githubusercontent.com/46397975/119145398-50829680-ba69-11eb-81c6-81a7d80e7781.png">
+<img height="450" width="700" src="https://user-images.githubusercontent.com/46397975/119145398-50829680-ba69-11eb-81c6-81a7d80e7781.png">
+</a>
+
+<br/>
+
 checkout video
 <br/>
 https://www.youtube.com/playlist?list=PLeFMQUpIAzKL99Y1EGt3SV9EIh4NkXCff
+
+
+
+
