@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: aqua;
+
+}
+
+.clockDiv{
+    position:relative;
+    height:30vw;
+    width:30vw;
+    background:url('../../images/clock.png');
+    background-size: 100%;
+    margin:50px auto;
+background-color:azure;
+    border-radius:50%;
+    border:50px solid black;
+}
+
+.hour,.minute,.second{
+    position:absolute;
+    background:black;
+    border-radius:10px;
+    clip-path: polygon(50% 0, 100% 23%, 75% 100%, 26% 100%, 0 24%);
+    transform-origin: bottom;
+}
+
+.hour {
+    width: 5%;
+    height: 30%;
+    top:21%;
+    left:45%;
+}
+  
+ .minute {
+    width: 4.6%;
+    height: 36%;
+    top:15%;
+    left:48%;
+}
+  
+.second {
+    width: 2%;
+    height: 41%;
+    top: 11%;
+    left:49%;
+    background: red;
+}
+
+.digitalClock{
+    position: absolute;
+    left: 30%;
+    top: 65%;
+    font-size: 3vw;
+    font-weight: 700;
+    border:2px solid black;
+    padding:2px;
+    border-radius:15px;
+
+}
